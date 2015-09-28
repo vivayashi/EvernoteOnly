@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0B9F5BB5F5FBBFDDD44983E390496F31555F1AD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D253DE17E9825C0391375E61799B8BD6E9FB7EA1" : 0,
+    "0B9F5BB5F5FBBFDDD44983E390496F31555F1AD8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5484017B-A5F1-4A30-BA78-F0241AB80D72",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D253DE17E9825C0391375E61799B8BD6E9FB7EA1" : "EvernoteOnly\/evernote-cloud-sdk-ios\/",
+    "0B9F5BB5F5FBBFDDD44983E390496F31555F1AD8" : "EvernoteOnly\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EvernoteOnly",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EvernoteOnly.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vivayashi\/EvernoteOnly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B9F5BB5F5FBBFDDD44983E390496F31555F1AD8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/evernote\/evernote-cloud-sdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D253DE17E9825C0391375E61799B8BD6E9FB7EA1"
+    }
+  ]
+}
