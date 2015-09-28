@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3F32221BB931BB00F35CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F32211BB931BB00F35CF7 /* AppDelegate.swift */; };
+		DB3F32241BB931BB00F35CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F32231BB931BB00F35CF7 /* ViewController.swift */; };
+		DB3F32271BB931BB00F35CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3F32251BB931BB00F35CF7 /* Main.storyboard */; };
+		DB3F32291BB931BB00F35CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3F32281BB931BB00F35CF7 /* Assets.xcassets */; };
+		DB3F322C1BB931BB00F35CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3F322A1BB931BB00F35CF7 /* LaunchScreen.storyboard */; };
+		DB3F32371BB931BB00F35CF7 /* EvernoteOnlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F32361BB931BB00F35CF7 /* EvernoteOnlyTests.swift */; };
+		DB3F32421BB931BB00F35CF7 /* EvernoteOnlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F32411BB931BB00F35CF7 /* EvernoteOnlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3F32331BB931BB00F35CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3F32161BB931BB00F35CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3F321D1BB931BB00F35CF7;
+			remoteInfo = EvernoteOnly;
+		};
+		DB3F323E1BB931BB00F35CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3F32161BB931BB00F35CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3F321D1BB931BB00F35CF7;
+			remoteInfo = EvernoteOnly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3F321E1BB931BB00F35CF7 /* EvernoteOnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteOnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3F32211BB931BB00F35CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB3F32231BB931BB00F35CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB3F32261BB931BB00F35CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3F32281BB931BB00F35CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3F322B1BB931BB00F35CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3F322D1BB931BB00F35CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3F32321BB931BB00F35CF7 /* EvernoteOnlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvernoteOnlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3F32361BB931BB00F35CF7 /* EvernoteOnlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteOnlyTests.swift; sourceTree = "<group>"; };
+		DB3F32381BB931BB00F35CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3F323D1BB931BB00F35CF7 /* EvernoteOnlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvernoteOnlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3F32411BB931BB00F35CF7 /* EvernoteOnlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteOnlyUITests.swift; sourceTree = "<group>"; };
+		DB3F32431BB931BB00F35CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3F321B1BB931BB00F35CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F322F1BB931BB00F35CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F323A1BB931BB00F35CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3F32151BB931BB00F35CF7 = {
+			isa = PBXGroup;
+			children = (
+				DB3F32201BB931BB00F35CF7 /* EvernoteOnly */,
+				DB3F32351BB931BB00F35CF7 /* EvernoteOnlyTests */,
+				DB3F32401BB931BB00F35CF7 /* EvernoteOnlyUITests */,
+				DB3F321F1BB931BB00F35CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3F321F1BB931BB00F35CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F321E1BB931BB00F35CF7 /* EvernoteOnly.app */,
+				DB3F32321BB931BB00F35CF7 /* EvernoteOnlyTests.xctest */,
+				DB3F323D1BB931BB00F35CF7 /* EvernoteOnlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3F32201BB931BB00F35CF7 /* EvernoteOnly */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F32211BB931BB00F35CF7 /* AppDelegate.swift */,
+				DB3F32231BB931BB00F35CF7 /* ViewController.swift */,
+				DB3F32251BB931BB00F35CF7 /* Main.storyboard */,
+				DB3F32281BB931BB00F35CF7 /* Assets.xcassets */,
+				DB3F322A1BB931BB00F35CF7 /* LaunchScreen.storyboard */,
+				DB3F322D1BB931BB00F35CF7 /* Info.plist */,
+			);
+			path = EvernoteOnly;
+			sourceTree = "<group>";
+		};
+		DB3F32351BB931BB00F35CF7 /* EvernoteOnlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F32361BB931BB00F35CF7 /* EvernoteOnlyTests.swift */,
+				DB3F32381BB931BB00F35CF7 /* Info.plist */,
+			);
+			path = EvernoteOnlyTests;
+			sourceTree = "<group>";
+		};
+		DB3F32401BB931BB00F35CF7 /* EvernoteOnlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F32411BB931BB00F35CF7 /* EvernoteOnlyUITests.swift */,
+				DB3F32431BB931BB00F35CF7 /* Info.plist */,
+			);
+			path = EvernoteOnlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3F321D1BB931BB00F35CF7 /* EvernoteOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3F32461BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnly" */;
+			buildPhases = (
+				DB3F321A1BB931BB00F35CF7 /* Sources */,
+				DB3F321B1BB931BB00F35CF7 /* Frameworks */,
+				DB3F321C1BB931BB00F35CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteOnly;
+			productName = EvernoteOnly;
+			productReference = DB3F321E1BB931BB00F35CF7 /* EvernoteOnly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3F32311BB931BB00F35CF7 /* EvernoteOnlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3F32491BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnlyTests" */;
+			buildPhases = (
+				DB3F322E1BB931BB00F35CF7 /* Sources */,
+				DB3F322F1BB931BB00F35CF7 /* Frameworks */,
+				DB3F32301BB931BB00F35CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3F32341BB931BB00F35CF7 /* PBXTargetDependency */,
+			);
+			name = EvernoteOnlyTests;
+			productName = EvernoteOnlyTests;
+			productReference = DB3F32321BB931BB00F35CF7 /* EvernoteOnlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3F323C1BB931BB00F35CF7 /* EvernoteOnlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3F324C1BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnlyUITests" */;
+			buildPhases = (
+				DB3F32391BB931BB00F35CF7 /* Sources */,
+				DB3F323A1BB931BB00F35CF7 /* Frameworks */,
+				DB3F323B1BB931BB00F35CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3F323F1BB931BB00F35CF7 /* PBXTargetDependency */,
+			);
+			name = EvernoteOnlyUITests;
+			productName = EvernoteOnlyUITests;
+			productReference = DB3F323D1BB931BB00F35CF7 /* EvernoteOnlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3F32161BB931BB00F35CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yutaro OBAYASHI";
+				TargetAttributes = {
+					DB3F321D1BB931BB00F35CF7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DB3F32311BB931BB00F35CF7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB3F321D1BB931BB00F35CF7;
+					};
+					DB3F323C1BB931BB00F35CF7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB3F321D1BB931BB00F35CF7;
+					};
+				};
+			};
+			buildConfigurationList = DB3F32191BB931BB00F35CF7 /* Build configuration list for PBXProject "EvernoteOnly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3F32151BB931BB00F35CF7;
+			productRefGroup = DB3F321F1BB931BB00F35CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3F321D1BB931BB00F35CF7 /* EvernoteOnly */,
+				DB3F32311BB931BB00F35CF7 /* EvernoteOnlyTests */,
+				DB3F323C1BB931BB00F35CF7 /* EvernoteOnlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3F321C1BB931BB00F35CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F322C1BB931BB00F35CF7 /* LaunchScreen.storyboard in Resources */,
+				DB3F32291BB931BB00F35CF7 /* Assets.xcassets in Resources */,
+				DB3F32271BB931BB00F35CF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F32301BB931BB00F35CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F323B1BB931BB00F35CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3F321A1BB931BB00F35CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F32241BB931BB00F35CF7 /* ViewController.swift in Sources */,
+				DB3F32221BB931BB00F35CF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F322E1BB931BB00F35CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F32371BB931BB00F35CF7 /* EvernoteOnlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F32391BB931BB00F35CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F32421BB931BB00F35CF7 /* EvernoteOnlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3F32341BB931BB00F35CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3F321D1BB931BB00F35CF7 /* EvernoteOnly */;
+			targetProxy = DB3F32331BB931BB00F35CF7 /* PBXContainerItemProxy */;
+		};
+		DB3F323F1BB931BB00F35CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3F321D1BB931BB00F35CF7 /* EvernoteOnly */;
+			targetProxy = DB3F323E1BB931BB00F35CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3F32251BB931BB00F35CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3F32261BB931BB00F35CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3F322A1BB931BB00F35CF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3F322B1BB931BB00F35CF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3F32441BB931BB00F35CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3F32451BB931BB00F35CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3F32471BB931BB00F35CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EvernoteOnly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB3F32481BB931BB00F35CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EvernoteOnly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB3F324A1BB931BB00F35CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EvernoteOnlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvernoteOnly.app/EvernoteOnly";
+			};
+			name = Debug;
+		};
+		DB3F324B1BB931BB00F35CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EvernoteOnlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvernoteOnly.app/EvernoteOnly";
+			};
+			name = Release;
+		};
+		DB3F324D1BB931BB00F35CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EvernoteOnlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EvernoteOnly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB3F324E1BB931BB00F35CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EvernoteOnlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivayashi.EvernoteOnlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EvernoteOnly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3F32191BB931BB00F35CF7 /* Build configuration list for PBXProject "EvernoteOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3F32441BB931BB00F35CF7 /* Debug */,
+				DB3F32451BB931BB00F35CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3F32461BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3F32471BB931BB00F35CF7 /* Debug */,
+				DB3F32481BB931BB00F35CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3F32491BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3F324A1BB931BB00F35CF7 /* Debug */,
+				DB3F324B1BB931BB00F35CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3F324C1BB931BB00F35CF7 /* Build configuration list for PBXNativeTarget "EvernoteOnlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3F324D1BB931BB00F35CF7 /* Debug */,
+				DB3F324E1BB931BB00F35CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3F32161BB931BB00F35CF7 /* Project object */;
+}
