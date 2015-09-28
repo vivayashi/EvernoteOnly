@@ -9,8 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let CONSUMER_KEY    = "vivayashi-1721"
-    let CONSUMER_SECRET = "24b133dac9942f28"
+    let CONSUMER_KEY    = "CONSUMER_KEY"
+    let CONSUMER_SECRET = "CONSUMER_SECRET"
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
